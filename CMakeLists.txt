@@ -26,6 +26,7 @@
 # minimum required cmake version
 cmake_minimum_required(VERSION 2.8)
 
+ set (CMAKE_VERBOSE_MAKEFILE ON)
 
 # choose new behaviour for CMP0042
 # see http://www.cmake.org/cmake/help/v3.0/policy/CMP0042.html for more details
