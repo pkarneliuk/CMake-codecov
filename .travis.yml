@@ -16,5 +16,5 @@ script:
   - make test
 
 after_success:
-  - make gcov
+  - VERBOSE=1 make gcov
   - bash <(curl -s https://codecov.io/bash)
